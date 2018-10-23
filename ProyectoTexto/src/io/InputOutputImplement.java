@@ -11,27 +11,19 @@ public class InputOutputImplement implements InputOutputInterface {
 		leer = new Scanner(System.in);
 	}
 	
-
-	public String readDirection() {
-	
+	public String readString() {
 		return leer.nextLine();
-	
 	}
 	
-	
 	public void showMessage(String message) {
-		
 		System.out.println(message);
 	}
 	
 	public void showErrorMessage(String message) {
-		
 		System.err.println(message);
 	}
 	
-	
 	public void showResult(String message) {
-		
 		System.out.println(message);
 	}
 	

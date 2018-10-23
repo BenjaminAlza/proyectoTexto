@@ -2,7 +2,7 @@ package process;
 
 public interface InputOutputInterface {
 	
-    String readDirection();
+    String readString();
 	void showMessage(String message);
 	void showErrorMessage(String message);
 	void showResult(String message);
